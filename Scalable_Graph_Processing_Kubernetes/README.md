@@ -1,7 +1,7 @@
 # Demo for Scalable Graph Processing on Kubernetes Webinar
 
 ### Import Data
-```/usr/local/opt/arangodb/bin/arangoimport --server.password=test123 --file data/movies.csv --type csv --collection movies --create-collection true --translate "item_id=_key"```
+```/usr/local/opt/arangodb/bin/arangoimport --server.password=test123 --file data/movies.csv --type csv --collection movies --create-collection true --translate "movie_id=_key"```
 
 ```/usr/local/opt/arangodb/bin/arangoimport --server.password=test123 --file data/users.csv --type csv --collection users --create-collection true --translate "user_id=_key"```
 
